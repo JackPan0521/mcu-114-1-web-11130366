@@ -23,6 +23,8 @@ nav {
 ul {
   list-style: none;
   padding: 0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul > li {
@@ -44,6 +46,12 @@ a:focus {
   border: solid 1px #999;
   border-radius: 8px;
   width: 250px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 input[type="text"] {
