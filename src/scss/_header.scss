@@ -40,11 +40,11 @@ header {
         gap: 1.5rem;
 
         a {
-          color: #4b5563;
+          color: var(--text-color);
           text-decoration: inherit;
 
           &:hover {
-            color: #137fec;
+            color: var(--primary-color);
           }
         }
       }
