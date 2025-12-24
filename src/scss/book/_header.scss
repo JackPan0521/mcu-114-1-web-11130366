@@ -12,7 +12,7 @@ header {
   }
 
   h3 {
-    @include common.fontStyle(1.25rem, 700, 11.75rem);
+    @include common.fontStyle(var(--header-heading-font-size), 700, 11.75rem);
     margin: 0px;
     color: var(--primary-color);
   }
@@ -20,7 +20,7 @@ header {
 
 nav {
   display: var(--nav-display);
-  gap: 1.5rem;
+  gap: var(--nav-gap);
 
   .active {
     position: relative;
