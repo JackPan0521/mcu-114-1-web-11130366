@@ -23,6 +23,7 @@ nav {
   gap: 1.5rem;
 
   .active {
+    position: relative;
     color: var(--primary-color);
 
     &::after {

@@ -21,11 +21,12 @@ section {
   main.wrapper {
     max-width: 90vw;
     margin: 0 auto;
-    outline: 1px solid red;
     padding-left: var(--container-padding-left);
     padding-right: var(--container-padding-right);
 
     > div {
+      outline: 1px solid red;
+      padding-block: 4rem;
       &.home {
         height: 100vh;
       }
